@@ -1,0 +1,258 @@
+*{/*configurações padrões para tirar bordas e margens que possam a vir atrapalhar no desenvolvimento do código*/
+    border: 0px;
+    
+    margin: 0px;
+}
+ul li a:hover{/*esta classe no css serve para dar um hover aos itens da barra de navegação */
+    background-color: #EFDE46;
+    width: fit-content;
+    border-radius: 10px;
+    padding:5px;
+}
+
+a{/*esta classe serve para mudar a fonte dos itens dentro da barra de navegação */
+    font-family: 'fontenav';
+
+}
+
+@font-face {/*esta classe serve para dar nome a uma nova fonte dentro do código usando fontes externas*/
+    font-family: 'fontenav';
+    src: url(./_Fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'fonteabout';
+    src: url(_Fonts/Roboto-Light.ttf)
+}
+main img{
+    width: 100%;
+    height: 100%;   
+}
+@media only screen and (max-width: 360px){
+    main img{
+        height: 640px;
+        width: 100%;
+    }
+} 
+@media only screen and (max-width: 1024px){
+    main img{
+        height: 1366px;
+        width: 100%;
+    }
+}
+@media only screen and(max-width: 768px){
+    main img{
+        height: 1024px;
+        width: 100%;
+    }
+
+}
+
+main a{
+    background-color: red;
+    position: relative;
+    margin-bottom: 500px;
+}
+@media only screen and (max-width:768px){
+    ul.prag{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    
+    }
+}
+.prag{
+    font-family: 'fontenav';
+    margin-left: 0;
+    margin-right: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.prag li:hover{
+    zoom: 105%;
+}
+.prat1 li img {
+    border-radius: 15px;
+    height: 200px;
+}
+.prat1{
+    text-align: center;
+}
+.prat1 ul {
+    border-radius: 15px;
+    box-shadow: 10px 10px 35px black;
+    width: max-content;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.prat1 ul li {
+    padding: 20px 40px;
+    font-size: 150%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    border-radius: 15px;
+}
+.prat1 ul li a {
+    padding: 5px 20px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.prat1 ul li a:hover {
+    background-color: #FF7A00;
+    color: black;
+    border-radius: 10px;
+    border: 15px;
+}
+.prat2 li img {
+    border-radius: 15px;
+    height: 200px;
+}
+.prat2{
+    text-align: center;
+}
+.prat2 ul {
+    border-radius:15px;
+    box-shadow: 10px 10px 35px black;
+    width: max-content;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.prat2 ul li {
+    padding: 20px 40px;
+    font-size: 150%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    border-radius:15px
+}
+.prat2 ul li a {
+    padding: 5px 20px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.prat2 ul li a:hover {
+    background-color: #FF7A00;
+    color: black;
+    border-radius: 10px;
+    border: 15px;
+}
+.prat3 li img {
+    border-radius: 15px;
+    height: 200px;
+}
+.prat3{
+    text-align: center;
+}
+.prat3 ul {
+    border-radius: 15px;
+    box-shadow: 10px 10px 35px black;
+    width: max-content;
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.prat3 ul li {
+    padding: 20px 40px;
+    font-size: 150%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: white;
+    border-radius: 15px;
+}
+.prat3 ul li a {
+    padding: 5px 20px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+.prat3 ul li a:hover {
+    background-color: #FF7A00;
+    color: black;
+    border-radius: 10px;
+    border: 15px;
+}
+#conteudoc {
+    text-align: center;
+    margin:0px;
+    padding:0px;
+}
+.cardg {
+    color: black;
+    font-style: italic;
+}
+.conteudo {
+    float: inline-start;
+    text-align: center;
+    background-color: none;
+}
+.conteudo ul {
+    background-color: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.conteudo ul li {
+    background: none;
+    font-size: 200%;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+    margin-bottom: -200px;
+    margin-top: -450px;
+}
+.conteudo ul li a {
+    background: #EFDE46;
+    width: fit-content;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: black;
+    text-decoration: none;
+}
+.conteudo ul li a:hover {
+    background:#FF7A00;
+}
+.about{
+    font-family: 'fonteabout';
+}
+.about ul {
+    display: flex;
+    list-style: none;
+}
+.about ul li {
+    margin: 20px;
+    margin-right: 50px;
+}
+iframe {
+    height: 100%;
+}
+@media only screen and (max-width:768px){
+    .about ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:768px){
+    iframe {
+        width: 100%;
+    }
+}
